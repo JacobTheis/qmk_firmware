@@ -84,5 +84,7 @@ if (!process_achordion(keycode, record)) { return false; }
   return true;
 }
 
-
+void matrix_scan_user(void) {
+  achordion_task();
+}
 
